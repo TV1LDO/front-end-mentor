@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: hsl(30, 38%, 92%);
+}
+img{border-radius: 15px 0 0 15px;
+    width: 400px;
+    height: 600px;
+}
+.main{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+}
+.pic{
+    display: inline-block;
+}
+.sec{
+    box-sizing: border-box;
+    position: relative;
+    bottom: 2px;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: hsl(0, 0%, 100%);
+    border-radius: 0 15px 15px 0;
+    padding: 0 34px 0 39px;
+}
+.head{
+    position: relative;
+    right: 85px;
+    bottom: 10px;
+    letter-spacing: 10px;
+    margin: 20px 0;
+    color: rgb(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+.name{
+
+}
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+}
+.des{
+    font-size: 20px;
+   line-height: 35px;
+   color: rgb(0, 0, 0, .5);
+   margin: 30px 0 50px 0;
+}
+.price{
+    display: inline;
+    color: hsl(158, 36%, 37%);
+    position: relative;
+    right: 60px;
+}
+span{
+    position: relative;
+    right: 40px;
+    text-decoration: line-through;
+    color: rgb(0, 0, 0,0.5);
+}
+.prices{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+button{
+    position: relative;
+    width: 340px;
+    height: 55px;
+    top: 0px;
+    background:hsl(158, 36%, 37%) ;
+    color: white;
+    font-size: 19px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    background: hsl(158, 36%, 18%);
+}
+.ico{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
